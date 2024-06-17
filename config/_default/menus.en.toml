@@ -17,7 +17,7 @@
 
 [[main]]
   name = "About me"
-  pageRef = "/about-me"
+  pageRef = "about-me"
   weight = 2
 
 #[[main]]
@@ -50,7 +50,7 @@
 
 [[main]]
   name = "Projects"
-  pageRef = "tags"
+  pageRef = "projects"
   weight = 3
 
 

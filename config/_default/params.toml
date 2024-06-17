@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = false
 enableCodeCopy = true
 
-#mainSections = ["section1", "section2"]
+mainSections = ["posts"]
 # robots = ""
 
 disableImageOptimization = false
@@ -26,7 +26,7 @@ defaultBackgroundImage = "background.svg" # used as default for background image
 # smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -38,11 +38,11 @@ defaultBackgroundImage = "background.svg" # used as default for background image
 [homepage]
   layout = "hero" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "hedgehog_round.webp" # used in: hero, and card
-  showRecent = false
+  showRecent = true
   showRecentItems = 5
   showMoreLink = false
   showMoreLinkDest = "/posts"
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 
