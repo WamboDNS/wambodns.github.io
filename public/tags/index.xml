@@ -7,6 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Denis</copyright>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gan</title>
+      <link>http://localhost:1313/tags/gan/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gan/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Outlier Detection</title>
+      <link>http://localhost:1313/tags/outlier-detection/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/outlier-detection/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Subspaces</title>
+      <link>http://localhost:1313/tags/subspaces/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/subspaces/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

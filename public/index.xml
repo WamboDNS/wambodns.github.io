@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Denis</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Subspace generative... what?</title>
-      <link>http://localhost:1313/posts/thesis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/blog/fegan/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/thesis/</guid>
-      <description>A short summary of my bachelor&amp;rsquo;s thesis!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/thesis/featured.png" />
+      <guid>http://localhost:1313/blog/fegan/</guid>
+      <description>A short summary of my Bachelor&amp;rsquo;s Thesis!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/fegan/featured.png" />
     </item>
     
   </channel>
