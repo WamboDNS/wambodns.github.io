@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on wambo.</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on wambo.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Denis</copyright>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subspace generative... what?</title>
+      <link>http://localhost:1313/blog/fegan/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/fegan/</guid>
+      <description>A short summary of my Bachelor&amp;rsquo;s Thesis!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/fegan/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
