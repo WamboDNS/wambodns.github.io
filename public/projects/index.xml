@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on wambo.</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on wambo.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Denis</copyright>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GSAAL - Generative Subspace Adversarial Active Learning</title>
+      <link></link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>The model paper-ready version of the model I developed during my Bachelor&amp;rsquo;s Thesis</description>
+      
+    </item>
+    
+    <item>
+      <title>Prompt Injection Attacks agaist LLMs</title>
+      <link></link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>I wrote this SOK paper as a part of a seminar on the security of machine learning.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

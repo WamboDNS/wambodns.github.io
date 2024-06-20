@@ -1,7 +1,7 @@
 ---
 title: "Subspace generative... what?"
 date: "2024-06-01"
-draft: false
+draft: true
 summary: "A short summary of my Bachelor's Thesis!"
 tags: ["outlier detection", "gan", "subspaces"]
 ---
@@ -38,7 +38,7 @@ Each of those two parties has one unique goal. The generator aims to, almost, ap
 One can imagine the GAN training procedure as a feud between an art forger and an art expert. While the art expert's job is to be really good at spotting fake art, the art forger tries to trick the expert. During the game, the art forger becomes better and better at faking artwork, while, at some point, the art expert might not be able to distinguish between real and fake artwork anymore. 
 
 This training results in a minimax (zero-sum) game, which is held by *two* parties. If you're interested in the deeper maths behind this model or other details, please refer to [the original GAN paper](https://arxiv.org/pdf/1406.2661).
-### feature ensemble GAN - FeGAN
+### Feature Ensemble GAN - FeGAN
 The first step to solve our task is to adjust the model architecture and think about how we can incorporate multiple subspaces into the training process. 
 A very naive approach would be to simply use multiple GANs, each training on its own, unique, subspace. However, that doesn't help us much as each Generator would only be able to generate samples from that subspace. Therefore, we would not approximate the full sample space and probably lose important feature dependencies. So, what do we do now? How about we only use one Generator, that trains on the full feature space? And then we project the generated full dimensional samples down to specific subspaces? That way, we still generate on the complete feature space while also enabling the Discriminators to work on lower-dimensional subspaces. Of course, this is only possible if the Discriminators work with lower-dimensional datasets to begin with.
 
@@ -57,8 +57,8 @@ Admittedly, this may not be the best choice in terms of accuracy, but it is suff
 In my thesis, we extended the vanilla GAN architecture to create FeGAN. 
 We combine one Generator with multiple Discriminators, each working on their on unique feature subspace to form one ensemble, improving prediction quality. Furthermore, we adjusted the training process, the zero-sum game and the target function, to make the original GAN training compatible with our novel adjustments.
 
-The code of the model will be released eventually, however, due to us being under review, it is now available currently.
-## Future
+The code for FeGAN (old name, now rebranded to GSAAL) can be found [on my GitHub](https://github.com/WamboDNS/GSAAL).
+## Final words
 We were really satisfied with the results of FeGAN. That's why we've decided to continue researching the model and write a paper about it! At the moment, we are in the reviewing process of a major conference, but a pre-print version is already available on arxiv.
 
 [Generative Subspace Adversarial Active Learning for Outlier Detection in Multiple Views of High-dimensional Data](https://arxiv.org/pdf/2404.14451)

@@ -21,7 +21,7 @@ disableTextInHeader = false
 defaultBackgroundImage = "background.svg" # used as default for background images 
 # defaultFeaturedImage = "/home/denis/projects/wambo-tech/themes/blowfish/assets/img/rain.svg" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
+ highlightCurrentMenuArea = true
  smartTOC = true
  smartTOCHideUnfocusedChildren = true
 
@@ -41,7 +41,7 @@ defaultBackgroundImage = "background.svg" # used as default for background image
   showRecent = true
   showRecentItems = 5
   showMoreLink = false
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/blog"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background

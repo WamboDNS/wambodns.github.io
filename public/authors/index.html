@@ -80,16 +80,16 @@
   
   
   
-  <link href="mailto:denis.wambold@student.kit.edu" rel="me" />
-  
-  
   <link href="https://github.com/wambodns" rel="me" />
+  
+  
+  <link href="https://scholar.google.com/citations?user=eLgxI6IAAAAJ" rel="me" />
   
   
   <link href="https://linkedin.com/in/denis-wambold-445925234" rel="me" />
   
   
-  <link href="https://twitter.com/wambodns" rel="me" />
+  <link href="mailto:denis.wambold@student.kit.edu" rel="me" />
   
   
   
@@ -163,10 +163,10 @@
 
             
             
-  <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        Blog
+        Projects
     </p>
 </a>
 
@@ -174,10 +174,10 @@
 
             
             
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        Projects
+        Blog
     </p>
 </a>
 
@@ -310,10 +310,10 @@
 
                     
   <li class="mt-1">
-    <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            Blog
+            Projects
         </p>
     </a>
 </li>
@@ -325,10 +325,10 @@
 
                     
   <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            Projects
+            Blog
         </p>
     </a>
 </li>
@@ -349,6 +349,16 @@
 
 
 
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
 
 
   

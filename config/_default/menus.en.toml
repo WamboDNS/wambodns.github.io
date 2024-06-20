@@ -18,7 +18,7 @@
 [[main]]
   name = "Blog"
   pageRef = "blog"
-  weight = 2
+  weight = 3
 
 #[[main]]
 #  name = "example sub-menu 1"
@@ -51,7 +51,7 @@
 [[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 3
+  weight = 2
 
 
 # -- Footer Menu --

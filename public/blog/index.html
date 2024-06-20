@@ -80,16 +80,16 @@
   
   
   
-  <link href="mailto:denis.wambold@student.kit.edu" rel="me" />
-  
-  
   <link href="https://github.com/wambodns" rel="me" />
+  
+  
+  <link href="https://scholar.google.com/citations?user=eLgxI6IAAAAJ" rel="me" />
   
   
   <link href="https://linkedin.com/in/denis-wambold-445925234" rel="me" />
   
   
-  <link href="https://twitter.com/wambodns" rel="me" />
+  <link href="mailto:denis.wambold@student.kit.edu" rel="me" />
   
   
   
@@ -163,10 +163,10 @@
 
             
             
-  <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        Blog
+        Projects
     </p>
 </a>
 
@@ -174,10 +174,10 @@
 
             
             
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        Projects
+        Blog
     </p>
 </a>
 
@@ -310,10 +310,10 @@
 
                     
   <li class="mt-1">
-    <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/projects/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            Blog
+            Projects
         </p>
     </a>
 </li>
@@ -325,10 +325,10 @@
 
                     
   <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            Projects
+            Blog
         </p>
     </a>
 </li>
@@ -349,6 +349,16 @@
 
 
 
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
 
 
   
@@ -407,126 +417,11 @@
 
   </section>
   
-
-    
-    
-    
-
-    
-
-    <section class="space-y-10 w-full">
-      
-      
-      <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-        2024
-      </h2>
-      
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/blog/fegan/">
-    
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/blog/fegan/featured_hu86027391bc7a323b5477dc88133285c3_1372566_600x0_resize_box_3.png);"></div>
-        
-      <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/blog/fegan/">Subspace generative... what?</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-01 00:00:00 &#43;0000 UTC">1 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1036 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-      </div>
-      
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        A short summary of my Bachelor&rsquo;s Thesis!
-      </div>
-      
-    </div>
-  </a>
-
-      
-      
-    </section>
-
-    
-
+  <section class="mt-10 prose dark:prose-invert">
+    <p class="py-8 border-t">
+      <em>There are no articles to list here yet.</em>
+    </p>
+  </section>
   
 
     
