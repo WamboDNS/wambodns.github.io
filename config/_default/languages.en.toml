@@ -1,4 +1,4 @@
-languageCode = "en"
+wlanguageCode = "en"
 languageName = "English"
 weight = 1
 title = "wambo."
@@ -41,7 +41,7 @@ title = "wambo."
 #     { kickstarter = "https://www.kickstarter.com/profile/username" },
 #     { lastfm = "https://lastfm.com/user/username" },
      { linkedin = "https://linkedin.com/in/denis-wambold-445925234" },
-     { email = "mailto:denis.wambold@student.kit.edu" },
+#     { email = "mailto:denis.wambold@student.kit.edu" },
 #     { mastodon = "https://mastodon.instance/@username" },
 #     { medium = "https://medium.com/username" },
 #     { microsoft = "https://www.microsoft.com/" },
