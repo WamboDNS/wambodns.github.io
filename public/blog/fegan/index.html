@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Subspace generative... what? &middot; wambo.</title>
-  <meta name="title" content="Subspace generative... what? &middot; wambo." />
+  <title>Subspace generative... what? ELI5 &middot; wambo.</title>
+  <meta name="title" content="Subspace generative... what? ELI5 &middot; wambo." />
   
-  <meta name="description" content="A short summary of my Bachelor&#39;s Thesis!" />
+  <meta name="description" content="A condensed summary of my Bachelor&#39;s Thesis!" />
   <meta name="keywords" content="outlier detection, gan, subspaces, " />
   
   
@@ -61,8 +61,8 @@
   
   <meta property="og:url" content="http://localhost:1313/blog/fegan/">
   <meta property="og:site_name" content="wambo.">
-  <meta property="og:title" content="Subspace generative... what?">
-  <meta property="og:description" content="A short summary of my Bachelor’s Thesis!">
+  <meta property="og:title" content="Subspace generative... what? ELI5">
+  <meta property="og:description" content="A condensed summary of my Bachelor’s Thesis!">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -76,8 +76,8 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/blog/fegan/featured.png">
-  <meta name="twitter:title" content="Subspace generative... what?">
-  <meta name="twitter:description" content="A short summary of my Bachelor’s Thesis!">
+  <meta name="twitter:title" content="Subspace generative... what? ELI5">
+  <meta name="twitter:description" content="A condensed summary of my Bachelor’s Thesis!">
 
   
   <script type="application/ld+json">
@@ -85,10 +85,10 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog",
-    "name": "Subspace generative... what?",
-    "headline": "Subspace generative... what?",
+    "name": "Subspace generative... what? ELI5",
+    "headline": "Subspace generative... what? ELI5",
     
-    "abstract": "A short summary of my Bachelor\u0026rsquo;s Thesis!",
+    "abstract": "A condensed summary of my Bachelor\u0026rsquo;s Thesis!",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/blog\/fegan\/",
     "author" : {
@@ -104,7 +104,7 @@
     "keywords": ["outlier detection","gan","subspaces"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1032"
+    "wordCount": "1039"
   }]
   </script>
 
@@ -122,9 +122,6 @@
   
   
   <link href="https://linkedin.com/in/denis-wambold-445925234" rel="me" />
-  
-  
-  <link href="mailto:denis.wambold@student.kit.edu" rel="me" />
   
   
   
@@ -471,7 +468,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/blog/fegan/"
-      >Subspace generative... what?</a
+      >Subspace generative... what? ELI5</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -480,7 +477,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Subspace generative... what?
+      Subspace generative... what? ELI5
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -525,7 +522,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-01 00:00:00 &#43;0000 UTC">1 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1032 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2024-06-01 00:00:00 &#43;0000 UTC">1 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1039 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
   
 
   
@@ -575,9 +572,9 @@
     
 </h2>
 <p>This was the title of my Bachelor&rsquo;s Thesis.
-On the first glance, it might seem like this is just one big buzzword bingo.
-However, if we start to break the work down, we quickly notice that it actually describes the thesis well&hellip;
-Now, let&rsquo;s dive right into what I did and why this buzzy title is not so buzzy afterall.</p>
+At first glance, it might seem like this is just one big buzzword bingo.
+However, if we explore the work done, we quickly notice that it actually describes the thesis well&hellip;
+Now, let&rsquo;s dive right into what I did and why this seemingly buzzy title is not so buzzy afterall.</p>
 
 
 <h2 class="relative group">The Idea 
@@ -591,13 +588,12 @@ Now, let&rsquo;s dive right into what I did and why this buzzy title is not so b
     
 </h2>
 <p>In recent years, deep generative methods have enabled several subfields of Machine Learning to make great progress.
-Previously overshadowed by supervised methods, these unsupervised methods now thrive as they yield impressive performance without the need
-of labels.
+Previously overshadowed by supervised methods, these unsupervised methods now thrive as they yield impressive performance without the need of labels.
 Particularly, the introduction of Generative Adversarial Networks (GAN) and their game-theoretical approach to Deep Learning proved how powerful generative methods are.
 GANs manage to generate realistic data, thus they are suited for many different Machine Learning tasks such as Novelty Detection or Image Generation.
 Especially for high-dimensional data, GANs impress with their performance.
 Over the years, several extensions to the GAN framework have been published, leveraging the generative nature of the model to detect outliers.
-While there are models like MO-GAAL, which embed an ensemble structure to GANs to generate outliers, or AnoGAN, which works with a latent representation of data to detect outliers, all of these GAN extensions still lack one property: subspace Search. In high-dimensional spaces, outliers are sometimes only, or better, visible in some feature subspaces, making it hard to find them when only looking at the full set of features.</p>
+While there are models like <a href="https://arxiv.org/abs/1809.10816" target="_blank">MO-GAAL</a>, which embed an ensemble structure to GANs to generate outliers, or <a href="https://arxiv.org/abs/1703.05921" target="_blank">AnoGAN</a>, which works with a latent representation of data to detect outliers, all of these GAN extensions still lack one property: subspace Search. In high-dimensional spaces, outliers are sometimes only, or better, visible in some feature subspaces, making it hard to find them when only looking at the full set of features.</p>
 <p><em>That</em> is why we want to combine the generative strength of GANs with a feature subspace ensemble to tackle this missed opportunity.
 To achieve this, we have to solve a few issues:</p>
 <ul>
@@ -622,7 +618,8 @@ This allows to look for outliers in these subspaces respectively and therefore a
 <p>GANs typically consist of two neural networks: A Generator <em>G</em> and a Discriminator <em>D</em>.
 Each of those two parties has one unique goal. The generator aims to, almost, approximate the underlying data distribution. Ideally, <em>G</em> is able to generate realistic data samples at the end of the training. Its counterpart, the Discriminator, doesn&rsquo;t really care about the underlying distribution as much. <em>D</em>&rsquo;s actual goal is quite simple as it is to distinguish between real data samples and the ones generated by <em>G</em>.</p>
 <p>One can imagine the GAN training procedure as a feud between an art forger and an art expert. While the art expert&rsquo;s job is to be really good at spotting fake art, the art forger tries to trick the expert. During the game, the art forger becomes better and better at faking artwork, while, at some point, the art expert might not be able to distinguish between real and fake artwork anymore.</p>
-<p>This training results in a minimax (zero-sum) game, which is held by <em>two</em> parties. If you&rsquo;re interested in the deeper maths behind this model or other details, please refer to <a href="https://arxiv.org/pdf/1406.2661" target="_blank">the original GAN paper</a>.</p>
+<p>This training results in a minimax (zero-sum) game, which is held by <em>two</em> parties.</p>
+<p>If you&rsquo;re interested in the deeper maths behind this model or other details, please refer to <a href="https://arxiv.org/pdf/1406.2661" target="_blank">the original GAN paper</a>.</p>
 
 
 <h3 class="relative group">Feature Ensemble GAN - FeGAN 
@@ -655,12 +652,12 @@ A very naive approach would be to simply use multiple GANs, each training on its
     </figure>
 
 To classify whether a sample is an outlier or not, we let each Discriminator decide and then use the average of all decisions.</p>
-<p>The adjusted architecture already gives a good direction on how the target function and the minimax game of the original GAN have to be adjusted in order to work. However, I choose not to go into detail here, as it is plain math. Since I&rsquo;ve already written my <a href="thesis.pdf">thesis</a>, you can simple head there and look it up if you are interested!</p>
+<p>The adjusted architecture already gives a good direction on how the target function and the minimax game of the original GAN have to be adjusted in order to work. However, I choose not to go into detail here, as it is plain math. Since I&rsquo;ve already written my <a href="thesis.pdf">thesis</a>, you can simple head there and look it up if you are interested (<em>hint: you can also look <a href="https://arxiv.org/pdf/2404.14451" target="_blank">here</a></em>)!</p>
 <p>Something not so clear is the selection of &ldquo;good&rdquo; subspaces.
 Ideally, we want subspaces to be informative and independent to prevent redundancy.
-However, due to the exponential number of possible subspaces, choosing the &ldquo;good&rdquo; ones, is very hard.
+Unfortunately, due to the exponential number of possible subspaces, choosing the &ldquo;good&rdquo; ones, is very hard.
 While there are certain algorithms for this, they all have their pros and cons and we chose to stick to the most simple method: Random selection.
-Admittedly, this may not be the best choice in terms of accuracy, but it is sufficient to prove the functionality of the model.</p>
+Admittedly, this may not be the best choice in terms of prediction accuracy, but it is sufficient to prove the functionality of the model.</p>
 
 
 <h2 class="relative group">Conclusion 
@@ -678,18 +675,18 @@ We combine one Generator with multiple Discriminators, each working on their on 
 <p>The code for FeGAN (old name, now rebranded to GSAAL) can be found <a href="https://github.com/WamboDNS/GSAAL" target="_blank">on my GitHub</a>.</p>
 
 
-<h2 class="relative group">Final words 
-    <div id="final-words" class="anchor"></div>
+<h2 class="relative group">Final words &amp; Future 
+    <div id="final-words--future" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#final-words" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#final-words--future" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
 <p>We were really satisfied with the results of FeGAN. That&rsquo;s why we&rsquo;ve decided to continue researching the model and write a paper about it! At the moment, we are in the reviewing process of a major conference, but a pre-print version is already available on arxiv.</p>
-<p><a href="https://arxiv.org/pdf/2404.14451" target="_blank">Generative Subspace Adversarial Active Learning for Outlier Detection in Multiple Views of High-dimensional Data</a></p>
+<p><a href="https://arxiv.org/abs/2404.14451" target="_blank">Generative Subspace Adversarial Active Learning for Outlier Detection in Multiple Views of High-dimensional Data</a></p>
 
         </div>
         
@@ -774,24 +771,6 @@ We combine one Generator with multiple Discriminators, each working on their on 
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
-
-  </span>
-
-</span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="mailto:denis.wambold@student.kit.edu"
-          target="_blank"
-          aria-label="Email"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
 
   </span>
 

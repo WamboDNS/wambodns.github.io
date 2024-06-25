@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Subspaces &middot; wambo.</title>
-  <meta name="title" content="Subspaces &middot; wambo." />
+  <title>Prompt Injection Attacks agaist LLMs &middot; wambo.</title>
+  <meta name="title" content="Prompt Injection Attacks agaist LLMs &middot; wambo." />
+  
+  <meta name="description" content="I wrote this SOK paper as a part of a seminar on the security of machine learning." />
+  <meta name="keywords" content="llm, sok, prompt injection, " />
   
   
-  
-  
-  
-  <link rel="canonical" href="http://localhost:1313/tags/subspaces/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/tags/subspaces/index.xml" title="wambo." />
+  <link rel="canonical" href="http://localhost:1313/projects/prompt-inject/" />
   
   
   
@@ -61,18 +59,55 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/tags/subspaces/">
+  <meta property="og:url" content="http://localhost:1313/projects/prompt-inject/">
   <meta property="og:site_name" content="wambo.">
-  <meta property="og:title" content="Subspaces">
+  <meta property="og:title" content="Prompt Injection Attacks agaist LLMs">
+  <meta property="og:description" content="I wrote this SOK paper as a part of a seminar on the security of machine learning.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-01-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-01-16T00:00:00+00:00">
+    <meta property="article:tag" content="Llm">
+    <meta property="article:tag" content="Sok">
+    <meta property="article:tag" content="Prompt Injection">
+    <meta property="og:image" content="http://localhost:1313/projects/prompt-inject/featured.png">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Subspaces">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/projects/prompt-inject/featured.png">
+  <meta name="twitter:title" content="Prompt Injection Attacks agaist LLMs">
+  <meta name="twitter:description" content="I wrote this SOK paper as a part of a seminar on the security of machine learning.">
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Projects",
+    "name": "Prompt Injection Attacks agaist LLMs",
+    "headline": "Prompt Injection Attacks agaist LLMs",
+    
+    "abstract": "I wrote this SOK paper as a part of a seminar on the security of machine learning.",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/projects\/prompt-inject\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Denis"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-01-16T00:00:00\u002b00:00",
+    "datePublished": "2024-01-16T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-01-16T00:00:00\u002b00:00",
+    
+    "keywords": ["llm","sok","prompt injection"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "0"
+  }]
+  </script>
+
 
   
   
@@ -364,13 +399,103 @@
       
 
 
- <header>
+<article>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Subspaces</h1>
-  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/projects/prompt-inject/featured_hu2ebcb107d35d7648108b2bdb596a325a_3360034_1200x0_resize_box_3.png);">
     
 
 
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      ></a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/projects/"
+      >Projects</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/projects/prompt-inject/"
+      >Prompt Injection Attacks agaist LLMs</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Prompt Injection Attacks agaist LLMs
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
 
 
 
@@ -393,158 +518,220 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
+  <time datetime="2024-01-16 00:00:00 &#43;0000 UTC">16 January 2024</time>
+  
+
+  
+  
 </div>
 
 
-  </div>
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
   </header>
-
-  <section class="flex flex-col max-w-full mt-0 mb-5 prose dark:prose-invert lg:flex-row">
-    
-    <script>
-      var oid = "views_term_subspaces"
-      var oid_likes = "likes_term_subspaces"
-    </script>
-    
-    
-    <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
-  </section>
-
-
   
-
-  
-  
-  
-
-  
-
-  <section class="space-y-10 w-full">
-    
-    
-    <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
-      2024
-    </h2>
-    
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/blog/fegan/">
-    
-        
-        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/blog/fegan/featured_hu86027391bc7a323b5477dc88133285c3_1372566_600x0_resize_box_3.png);"></div>
-        
-      <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/blog/fegan/">Subspace generative... what?</div>
+      <div class="min-w-0 min-h-0 max-w-fit">
         
         
-        <div class=" ltr:ml-2 rtl:mr-2">
-          <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Draft
-  </span>
-</span>
+
+
+        <div class="article-content max-w-prose mb-20">
+          
         </div>
         
         
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+
+          
+            
+            
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
         
-
-
-
-
-
-
-
-
-
-
-
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Denis" src="/hedgehog_hua280d1e11796f539a33c742442a318b7_526782_192x192_fill_q75_h2_box_center_2.webp" />
+    
   
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Denis
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Studying CS@KIT. Focused on keeping computers safe.</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/wambodns"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
 
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
 
+  </span>
 
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://scholar.google.com/citations?user=eLgxI6IAAAAJ"
+          target="_blank"
+          aria-label="Google"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
 
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><path fill="currentColor" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
 
-  
+  </span>
 
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://linkedin.com/in/denis-wambold-445925234"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
 
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
 
-  
+  </span>
 
+</span></a
+        >
+      
+    
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-06-01 00:00:00 &#43;0000 UTC">1 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1032 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
-  
-
-  
-  
+</div>
+  </div>
 </div>
 
+          
 
+          
 
+          
+          <div class="mb-10"></div>
+          
 
+        
 
+        
+        
 
-
+          
       </div>
+     
       
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        A short summary of my Bachelor&rsquo;s Thesis!
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_projects\/prompt-inject\/index.md"
+        var oid_likes = "likes_projects\/prompt-inject\/index.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >GSAAL - Generative Subspace Adversarial Active Learning</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-05-01 00:00:00 &#43;0000 UTC">1 May 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
       </div>
-      
     </div>
-  </a>
+  
+
 
     
-    
-  </section>
+  </footer>
+</article>
 
-  
-
-  
-
-  
-
-  
       
     </main><footer id="site-footer" class="py-10 print:hidden">
   
