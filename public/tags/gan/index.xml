@@ -9,12 +9,12 @@
     <copyright>© 2024 Denis</copyright>
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gan/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Subspace generative... what?</title>
+      <title>Subspace generative... what? ELI5</title>
       <link>http://localhost:1313/blog/fegan/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blog/fegan/</guid>
-      <description>A short summary of my Bachelor&amp;rsquo;s Thesis!</description>
+      <description>A condensed summary of my Bachelor&amp;rsquo;s Thesis!</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/fegan/featured.png" />
     </item>
     
