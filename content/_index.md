@@ -2,7 +2,7 @@
 description: Hi! I'm Denis and I study Computer Science!
 ---
 
-Hi! I'm Denis Wambo~~ld~~ and I'm currently doing my Master's in Computer Science at Karlsruhe Institute of Technology (KIT). 
+Hi! I'm Denis Wambold and I'm currently doing my Master's in Computer Science at Karlsruhe Institute of Technology (KIT). 
 I'm particularly interested in offensive and defensive cybersecurity 👨‍💻 and  artificial intelligence 🤖.
 
 In case you want to have a talk, feel free to reach out to me on whatever platform you prefer! :)
