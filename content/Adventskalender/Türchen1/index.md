@@ -4,7 +4,7 @@ date: "2024-12-01"
 ---
 Hallo Arinna,
 
-da du gerade in Kanada bist, ist der Adventskalendar dieses Jahr etwas anders!
+da du gerade in Kanada bist, ist der Adventskalender dieses Jahr etwas anders!
 Der heutige Tag dreht sich, passend zum eisigen Winter in Kanada, um die Kälte.
 
 Und wer mag die Kälte besonders??? 
