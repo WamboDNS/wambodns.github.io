@@ -1,5 +1,6 @@
 ---
 title: "Türchen Nummer 1"
+summary: "Huskies im Winterwald"
 date: "2024-12-01"
 ---
 Hallo Arinna,
