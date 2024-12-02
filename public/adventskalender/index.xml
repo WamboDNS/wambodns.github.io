@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adventskalender on Denis Wambold</title>
+    <link>http://localhost:1313/adventskalender/</link>
+    <description>Recent content in Adventskalender on Denis Wambold</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Denis</copyright>
+    <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/adventskalender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Türchen Nummer 2</title>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen2/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen2/</guid>
+      <description>Einchörnchen auf dem Dach</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen2/featured.png" />
+    </item>
+    
+    <item>
+      <title>Türchen Nummer 1</title>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen1/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen1/</guid>
+      <description>Huskies im Winterwald</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen1/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

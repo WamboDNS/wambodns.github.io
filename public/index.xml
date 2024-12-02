@@ -10,12 +10,22 @@
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Türchen Nummer 1</title>
-      <link>http://localhost:1313/adventskalendar/t%C3%BCrchen1/</link>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen1/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/adventskalendar/t%C3%BCrchen1/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalendar/t%C3%BCrchen1/featured.png" />
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen1/</guid>
+      <description>Huskies im Winterwald</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen1/featured.png" />
+    </item>
+    
+    <item>
+      <title>Türchen Nummer 1</title>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen2/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen2/</guid>
+      <description>Huskies im Winterwald</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen2/featured.png" />
     </item>
     
     <item>
