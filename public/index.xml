@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Denis</copyright>
-    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Türchen Nummer 3</title>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen3/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen3/</guid>
+      <description>Der Bär und sein Genuss</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen3/featured.png" />
+    </item>
+    
+    <item>
+      <title>Türchen Nummer 2</title>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen2/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen2/</guid>
+      <description>Einchörnchen auf dem Dach</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen2/featured.png" />
+    </item>
+    
     <item>
       <title>Türchen Nummer 1</title>
       <link>http://localhost:1313/adventskalender/t%C3%BCrchen1/</link>
@@ -16,16 +36,6 @@
       <guid>http://localhost:1313/adventskalender/t%C3%BCrchen1/</guid>
       <description>Huskies im Winterwald</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen1/featured.png" />
-    </item>
-    
-    <item>
-      <title>Türchen Nummer 1</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen2/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen2/</guid>
-      <description>Huskies im Winterwald</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen2/featured.png" />
     </item>
     
     <item>

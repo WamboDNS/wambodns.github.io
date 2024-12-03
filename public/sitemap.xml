@@ -4,24 +4,30 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/adventskalender/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen1/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen3/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/adventskalender/t%C3%BCrchen2/</loc>
+    <lastmod>2024-12-02T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen1/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
