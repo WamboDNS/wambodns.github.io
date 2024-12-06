@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Türchen Nummer 5</title>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen6/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen6/</guid>
+      <description>Igel im Winter</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen6/featured.png" />
+    </item>
+    
+    <item>
       <title>Türchen Nummer 4</title>
       <link>http://localhost:1313/adventskalender/t%C3%BCrchen4/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>

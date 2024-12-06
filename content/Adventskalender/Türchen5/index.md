@@ -40,5 +40,3 @@ vergisst die Kälte, fern von Sorgen.
 Ein süßes Tier im Wintertraum,  
 der Igel schläft im Waldesraum.  
 ```
-
-{{< youtubeLite id="vP9LcVgXYTE" label="Igel" >}}

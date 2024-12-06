@@ -21,6 +21,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen6/</loc>
+    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/adventskalender/t%C3%BCrchen4/</loc>
     <lastmod>2024-12-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
