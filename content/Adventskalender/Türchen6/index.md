@@ -8,7 +8,7 @@ Moin Moin liebe Arinna,
 
 heute ist Nikolaus! Hast du deine Stiefel geputzt und rausgestellt?
 Da du ja selber in der Rolle der Nikolausine handelst und die Stiefel füllst, hoffe ich, dass du auch an dich gedacht hast! 
-Bald ist es so weit, dann sehen wir uns wieder, und ich freue mich schon sehr darauf. Bis dahin müssen wir uns mit den Überraschungen des Nikolaus zufrieden geben und so langsam überlegen, wie wir die Koffer packen!
+Bald ist es so weit, dann sehen wir uns wieder, und ich freue mich schon sehr darauf. Bis dahin müssen wir uns mit den Überraschungen des Nikolaus zufrieden geben und so langsam überlegen, wie wir die Koffer packen! 
 
 Aber alles mit der Ruhe, heute ist Nikolaus und wir genießen den Tag!
 
