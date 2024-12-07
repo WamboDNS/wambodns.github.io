@@ -8,7 +8,7 @@ Merhaba Arinna,
 
 Marienkäfer spielen eine wichtige Rolle in deinem Leben. Sowohl Marie als auch Malti sind wichtige Begleiter für dich. 
 
-Aber wusstest du, dass Marienkäfer sehr komisch aussehen, wenn sie aus ihren Eiern schlüpfen? Ich auch nicht! Und ich finde das sehr verstörend. 
+Aber wusstest du, dass Marienkäfer sehr komisch aussehen, wenn sie aus ihren Eiern schlüpfen? Ich auch nicht! Und ich finde das sehr verstörend.   
 
 
 **Marie in Calgary**
