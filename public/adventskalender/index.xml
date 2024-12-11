@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Denis</copyright>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/adventskalender/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/adventskalender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Türchen Nummer 11</title>
+      <link>http://localhost:1313/adventskalender/t%C3%BCrchen11/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen11/</guid>
+      <description>Die starke Zwergin</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen11/featured.png" />
+    </item>
+    
     <item>
       <title>Türchen Nummer 10</title>
       <link>http://localhost:1313/adventskalender/t%C3%BCrchen10/</link>
