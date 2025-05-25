@@ -11,7 +11,7 @@ Richtig, es geht um Einchörnchen. Sie kommen in verschiedenen Farben und Größ
 
 
 
-{{< youtubeLite id="kw51dsa3fPk" label="Einchörnchen" >}}
+{{< youtube id="kw51dsa3fPk" label="Einchörnchen" >}}
 
 
 **Einchörnchen auf dem Dach, das macht Krach**

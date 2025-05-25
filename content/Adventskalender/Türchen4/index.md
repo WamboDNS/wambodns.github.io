@@ -42,4 +42,4 @@ Doch manchmal träumt er, bei Mondenschein,
 Von Kanada – und einem Eisbär-Schrecken so rein.  
 ```
 
-{{< youtubeLite id="PIty66yvew0" label="Pingus" >}}
+{{< youtube id="PIty66yvew0" label="Pingus" >}}

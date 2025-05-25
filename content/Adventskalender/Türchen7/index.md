@@ -55,4 +55,4 @@ Denn wer wagt zu fliegen, der weiß genau,
 Das Herz wird größer, die Welt bleibt wow!  
 ```
 
-{{< youtubeLite id="7ZpSxDNd_Tw" label="Marie" >}}
+{{< youtube id="7ZpSxDNd_Tw" label="Marie" >}}

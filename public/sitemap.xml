@@ -1,136 +1,146 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wambodns.github.io/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen17/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen17/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen16/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen16/</loc>
     <lastmod>2024-12-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen15/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen15/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen14/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen14/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen13/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen13/</loc>
     <lastmod>2024-12-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen12/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen12/</loc>
     <lastmod>2024-12-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen11/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen11/</loc>
     <lastmod>2024-12-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen10/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen10/</loc>
     <lastmod>2024-12-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen9/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen9/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen8/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen8/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen7/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen7/</loc>
     <lastmod>2024-12-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen6/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen6/</loc>
     <lastmod>2024-12-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen5/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen5/</loc>
     <lastmod>2024-12-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen4/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen4/</loc>
     <lastmod>2024-12-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen3/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen3/</loc>
     <lastmod>2024-12-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen2/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen2/</loc>
     <lastmod>2024-12-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/adventskalender/t%C3%BCrchen1/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/adventskalender/t%C3%BCrchen1/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/blog/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/blog/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/blog/fegan/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/tags/gan/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>https://wambodns.github.io/tags/outlier-detection/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://wambodns.github.io/blog/fegan/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://wambodns.github.io/tags/subspaces/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://wambodns.github.io/tags/</loc>
+    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://wambodns.github.io/projects/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://wambodns.github.io/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://wambodns.github.io/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://wambodns.github.io/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

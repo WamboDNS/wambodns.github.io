@@ -44,4 +44,4 @@ Deutschland an Weihnachten – einfach wunderbar!
 
 Ein deutscher Weihnachtsmarkt in Vancouver!
 
-{{< youtubeLite id="CK_JiHH_CLQ" label="Weihnachtsmarkt in Vancouver" >}}
+{{< youtube id="CK_JiHH_CLQ" label="Weihnachtsmarkt in Vancouver" >}}

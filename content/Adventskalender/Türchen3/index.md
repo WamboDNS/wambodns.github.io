@@ -45,4 +45,4 @@ Bleibt er der Freund, den man liebt, ach wie schee!
 
 Ein Video über die ganzen Tiere, die wir in den Rockies _nicht_ gesehen haben darf natürlich nicht fehlen!
 
-{{< youtubeLite id="2tKLXg1McAk" label="Tiere in den Rockies" >}}
+{{< youtube id="2tKLXg1McAk" label="Tiere in den Rockies" >}}

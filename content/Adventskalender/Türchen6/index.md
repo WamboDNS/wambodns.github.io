@@ -46,4 +46,4 @@ Nikolaus, der Chef, doch Arinna weiß genau:
 Ohne ihre Hilfe wär’s ein ziemliches Trauerschauspiel!  
 ```
 
-{{< youtubeLite id="2L2sVwDJbTo" label="Loriot" >}}
+{{< youtube id="2L2sVwDJbTo" label="Loriot" >}}

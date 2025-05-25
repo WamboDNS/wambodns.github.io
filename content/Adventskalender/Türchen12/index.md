@@ -54,4 +54,4 @@ und bitte, Studenten: Lernt doch das Schreiben!
 
 ----
 Was auch immer das hier ist...
-{{< youtubeLite id="8T4nfDVuwAQ" label="MRU Cribs" >}}
+{{< youtube id="8T4nfDVuwAQ" label="MRU Cribs" >}}

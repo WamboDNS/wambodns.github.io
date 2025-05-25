@@ -2,21 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gan on Denis Wambold</title>
-    <link>http://localhost:1313/tags/gan/</link>
+    <link>https://wambodns.github.io/tags/gan/</link>
     <description>Recent content in Gan on Denis Wambold</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2024 Denis</copyright>
-    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://wambodns.github.io/tags/gan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Subspace generative... what? ELI5</title>
-      <link>http://localhost:1313/blog/fegan/</link>
+      <link>https://wambodns.github.io/blog/fegan/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/fegan/</guid>
+      <guid>https://wambodns.github.io/blog/fegan/</guid>
       <description>A condensed summary of my Bachelor&amp;rsquo;s Thesis!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/fegan/featured.png" />
     </item>
-    
   </channel>
 </rss>

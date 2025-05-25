@@ -2,191 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Denis Wambold</title>
-    <link>http://localhost:1313/</link>
+    <link>https://wambodns.github.io/</link>
     <description>Recent content on Denis Wambold</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2024 Denis</copyright>
-    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://wambodns.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Türchen Nummer 17</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen17/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen17/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen17/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen17/</guid>
       <description>Der vorletzte Tag</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen17/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 16</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen16/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen16/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen16/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen16/</guid>
       <description>Es wird immer schwerer</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen16/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 15</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen15/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen15/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen15/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen15/</guid>
       <description>Bald ist es so weit</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen15/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 14</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen14/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen14/</link>
       <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen14/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen14/</guid>
       <description>Die wunderschöne Prinzessin</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen14/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 13</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen13/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen13/</link>
       <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen13/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen13/</guid>
       <description>Die Wandererin</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen13/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 12</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen12/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen12/</link>
       <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen12/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen12/</guid>
       <description>MRU</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen12/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 11</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen11/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen11/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen11/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen11/</guid>
       <description>Die starke Zwergin</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen11/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 10</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen10/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen10/</link>
       <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen10/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen10/</guid>
       <description>Puzzle</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen10/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 9</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen9/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen9/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen9/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen9/</guid>
       <description>Hoch hinaus</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen9/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 8</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen8/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen8/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen8/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen8/</guid>
       <description>Capy, das Schachbara</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen8/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 7</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen7/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen7/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen7/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen7/</guid>
       <description>Marie, der Marienkäfer</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen7/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 6</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen6/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen6/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen6/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen6/</guid>
       <description>Nikolaus in da House</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen6/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 5</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen5/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen5/</link>
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen5/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen5/</guid>
       <description>Igel im Winter</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen5/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 4</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen4/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen4/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen4/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen4/</guid>
       <description>Die Pinguine aus Mada&amp;hellip; Nicht Kanada!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen4/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 3</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen3/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen3/</link>
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen3/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen3/</guid>
       <description>Der Bär und sein Genuss</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen3/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 2</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen2/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen2/</link>
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen2/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen2/</guid>
       <description>Einchörnchen auf dem Dach</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen2/featured.png" />
     </item>
-    
     <item>
       <title>Türchen Nummer 1</title>
-      <link>http://localhost:1313/adventskalender/t%C3%BCrchen1/</link>
+      <link>https://wambodns.github.io/adventskalender/t%C3%BCrchen1/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/adventskalender/t%C3%BCrchen1/</guid>
+      <guid>https://wambodns.github.io/adventskalender/t%C3%BCrchen1/</guid>
       <description>Huskies im Winterwald</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/adventskalender/t%C3%BCrchen1/featured.png" />
     </item>
-    
     <item>
       <title>Subspace generative... what? ELI5</title>
-      <link>http://localhost:1313/blog/fegan/</link>
+      <link>https://wambodns.github.io/blog/fegan/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/fegan/</guid>
+      <guid>https://wambodns.github.io/blog/fegan/</guid>
       <description>A condensed summary of my Bachelor&amp;rsquo;s Thesis!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/fegan/featured.png" />
     </item>
-    
   </channel>
 </rss>

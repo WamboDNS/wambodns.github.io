@@ -44,8 +44,8 @@ https://www.kletterhalle-karlsruhe.de/
 
 https://www.dav-kletterzentrum-karlsruhe.de/
 
-{{< youtubeLite id="kR1buRTIKhk" label="Klettern" >}}
+{{< youtube id="kR1buRTIKhk" label="Klettern" >}}
 
 Und hier ein sehr cooles Video, das ich gefunden habe: Deutsche Straßenkünstler gehen nach Indien. Wenn du eine halbe Stunde hast, ist das glaube ich auch lustig anzuschauen wenn man nicht so sehr an der Kunst interessiert ist.
 
-{{< youtubeLite id="I6E_UbtxSHc" label="Kunst" >}}
+{{< youtube id="I6E_UbtxSHc" label="Kunst" >}}

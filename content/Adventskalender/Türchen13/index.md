@@ -45,4 +45,4 @@ ein Schatz der Seele, ein heiliges Norden.
 
 Hier ein Video, wie ein Türke in ein Loch klettert:
 
-{{< youtubeLite id="OPUTLWhhqCo" label="Türke in der Höhle" >}}
+{{< youtube id="OPUTLWhhqCo" label="Türke in der Höhle" >}}

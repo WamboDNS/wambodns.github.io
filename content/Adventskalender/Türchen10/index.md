@@ -41,4 +41,4 @@ Von diesem Tag an wurden Informatik und Puzzle-Abenteuer ihr gemeinsames Hobby â
 ----
 
 Eines Tages sehe ich dich hier:
-{{< youtubeLite id="7Mhh2p8tIUQ" label="Puzzle" >}}
+{{< youtube id="7Mhh2p8tIUQ" label="Puzzle" >}}

@@ -9,6 +9,10 @@
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
+[[main]]
+  name = "CV"
+  pageRef = "cv.pdf"
+  weight = 4
 
 [[main]]
   name = "Home"

@@ -62,4 +62,4 @@ Von der Prinzessin mit Herz und helfender Hand.
 
 Hier ein Video über Weihnachten in einem Tierheim
 
-{{< youtubeLite id="lmQ5MLoVf60" label="Hundis" >}}
+{{< youtube id="lmQ5MLoVf60" label="Hundis" >}}

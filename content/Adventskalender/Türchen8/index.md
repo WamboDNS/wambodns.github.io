@@ -49,4 +49,4 @@ So sagt man, in jenem deutschen Wald,
 wird Schach durch Tiere neu entfacht, als bald.
 ```
 
-{{< youtubeLite id="da5Ooi39vPY" label="Capy" >}}
+{{< youtube id="da5Ooi39vPY" label="Capy" >}}
