@@ -12,7 +12,7 @@
 [[main]]
   name = "CV"
   url = "cv.pdf"
-  weight = 4
+  weight = 5
 
 [[main]]
   name = "Home"
@@ -20,9 +20,14 @@
   weight = 1
 
 [[main]]
+  name = "Writeups"
+  pageRef = "writeups"
+  weight = 2
+
+[[main]]
   name = "Blog"
   pageRef = "blog"
-  weight = 3
+  weight = 4
 
 #[[main]]
 #  name = "example sub-menu 1"
@@ -55,7 +60,7 @@
 [[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 2
+  weight = 3
 
 
 # -- Footer Menu --

@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Denis Wambold</title>
-    <link>https://wambodns.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Denis Wambold</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://wambodns.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GSAAL - Generative Subspace Adversarial Active Learning</title>
       <link></link>
