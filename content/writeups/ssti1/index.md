@@ -7,7 +7,7 @@ tags: ["ssti", "writeups", "ctf", "python", "jinja2"]
 ---
 # CTF Writeup: SSTI1 (PicoCTF 2025)
 
-This challenge presents a simple website where users can submit an announcement, which then gets displayed back to them. At first glance, it seems harmless, but since this is a CTF challenge called **SSTI1**, the name itself is a huge hint: *Server-Side Template Injection*.  
+This challenge presents a simple website where users can submit an announcement, which then gets displayed back to them. Looks pretty innocent.
 
 ---
 
@@ -95,8 +95,7 @@ The app outputs something like:
 '__builtins__': {...}, 'Macro': <class 'jinja2.runtime.Macro'>, ... }
 ```
 
-This reveals access to Python internals — including `__builtins__`.  
-That’s huge, because from here, we can call dangerous functions like `__import__`.
+This reveals access to Python internals, including `__builtins__`. That’s huge, because from here, we can call dangerous functions like `__import__`.
 
 ---
 
@@ -118,7 +117,7 @@ Reading the flag is just as simple:
 {{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat flag').read() }}
 ```
 
-👉 Flag successfully retrieved.
+There we go! We got the flag.
 
 ![Flag Output](flag.png)  
 
@@ -129,12 +128,12 @@ Reading the flag is just as simple:
 This challenge demonstrates the danger of **mixing data and code**.  
 
 - User input must never be directly passed into a template without escaping.  
-- In Jinja2, the correct way to safely display user input is to **escape it**, ensuring that it’s treated purely as text rather than executable code.  
+- In Jinja2 and basically **everywhere**, the correct way to safely display user input is to **escape it**, ensuring that it’s treated purely as text rather than executable code.  
 
 ---
 
 ## Final Thoughts
 
-What started as a plain input field turned into full server compromise with just a few payloads. This is why developers must **sanitize input** and **separate logic from presentation**.  
+What started as a plain input field turned into full server compromise with just a few payloads. **Sanitize input** and **separate logic from presentation**!  
 
 SSTI vulnerabilities might not be as well-known as XSS or SQL injections, but they’re just as dangerous. Especially, since they are less known.
