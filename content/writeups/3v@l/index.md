@@ -13,7 +13,7 @@ Relevant hint: The flag file is /flag.txt
 
 ---
 
-Let's first look at the website and it's HTML. We input `5*5` and we get `25` as expected.
+Let's first look at the website and its HTML. We input `5*5` and we get `25` as expected.
 
 <div style="display: flex; gap: 10px;">
   <img src="./frontend.png" alt="Website Screenshot" height="200"/>
@@ -61,7 +61,7 @@ Surely we can just try to base64 encode the command and then decode it in the a 
 __import__("subprocess").check_output( ["bash", "-c", "$(echo 'bHM=' | base64 --decode)"],
     text=True)
 ``` 
-This will get the job done. We import the `subprocess` module, check the output of the command `ls` (which is `bHM=`inb64) and decode the base64 encoded string. That way, the shell can execute the command without the blacklist catching it.
+This will get the job done. We import the `subprocess` module, check the output of the command `ls` (which is `bHM=` in b64) and decode the base64 encoded string. That way, the shell can execute the command without the blacklist catching it.
 ![Ls Screenshot](./ls.png)
 
 Great, this works! Now, we should be able to read the flag, which is at `/flag.txt`. So, we hide `cat /flag.txt` as `Y2F0IC9mbGFnLnR4dA==` and read the flag!
