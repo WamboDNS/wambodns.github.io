@@ -1,9 +1,20 @@
+/* Light mode (default) */
 :root {
-  --bg: #0f172a;
-  --bg-secondary: #1e293b;
+  --bg: #E7ECF1;
+  --bg-secondary: #d4dce5;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --accent: #2563eb;
+  --border: rgba(100, 116, 139, 0.2);
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --bg: #0D1A06;
+  --bg-secondary: #172E0B;
   --text: #e2e8f0;
   --text-muted: #94a3b8;
-  --accent: #60a5fa;
+  --accent: #22c55e;
   --border: rgba(148, 163, 184, 0.2);
 }
 
@@ -230,6 +241,33 @@ hr {
   height: 200px;
   width: auto;
 }
+
+/* Theme toggle */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+}
+
+.theme-toggle svg {
+  width: 18px;
+  height: 18px;
+}
+
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+
+[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 @media (max-width: 600px) {
   header .container {
