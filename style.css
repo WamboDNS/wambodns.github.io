@@ -139,7 +139,7 @@ code {
 pre {
   background: var(--bg-secondary);
   padding: 1rem;
-  border-radius: 0;
+  border-radius: 6px;
   overflow-x: auto;
   margin: 1.5rem 0;
   border: 1px solid var(--border);
@@ -294,6 +294,7 @@ hr {
   height: 3em;
   background: linear-gradient(transparent, var(--bg-secondary));
   pointer-events: none;
+  border-radius: 0 0 6px 6px;
 }
 
 .code-toggle {
