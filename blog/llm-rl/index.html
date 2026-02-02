@@ -49,11 +49,11 @@
           <h3>How It Works Under the Hood</h3>
           <p>The main focus of Hosted RL is to enable plug-and-play training without thinking about infrastructure. You can think of it as an always-accessible server you can use but don't have to set up. More importantly, you don't have to worry about which GPUs to use or whether your VRAM will be sufficient. This means we can freely explore different model sizes!</p>
 
-          <p>On the technical side, Hosted RL combines PrimeIntellect's asynchronous RL training framework <a href="https://github.com/PrimeIntellect-ai/prime-rl">PRIME-RL</a> with their RL environment library, <a href="https://github.com/PrimeIntellect-ai/verifiers">verifiers</a>. In <code>verifiers</code>, you define your environment: specify the task, the dataset, a harness for your model, and a rubric to score it. That's the only thing you have to think about, really.</p>
+          <p>On the technical side, Hosted RL combines PrimeIntellect's asynchronous RL training framework <a href="https://github.com/PrimeIntellect-ai/prime-rl">prime-rl</a> with their RL environment library, <a href="https://github.com/PrimeIntellect-ai/verifiers">verifiers</a>. In <code>verifiers</code>, you define your environment: specify the task, the dataset, a harness for your model, and a rubric to score it. That's the only thing you have to think about, really.</p>
 
-          <p>PRIME-RL consists of three parts:</p>
+          <p>prime-rl consists of three parts:</p>
 
-          <img src="primerl.png" alt="PRIME-RL Architecture">
+          <img src="primerl.png" alt="prime-rl Architecture">
 
           <ul>
             <li><strong>The Trainer</strong> is responsible for training the model. It receives batches from the Orchestrator and updates the weights accordingly. It uses FSDP to shard weights, gradients, and optimizer states across multiple GPUs for resource-efficient training. The Trainer is also where the RL algorithm of your choice (GRPO, CISPO, RLOO...) runs.</li>
@@ -605,13 +605,13 @@ Let me know instantly if you find it.
 
           <p>No matter what I tried, the model would not get better at detection. Prompts seemed to be either too easy or too hard to detect. Normally when you encounter this, you can for example use online difficulty filtering and difficulty pooling to find the right balance.</p>
 
-          <p>Online difficulty filtering removes prompts that are too easy or too hard based on the model's current performance. In PRIME-RL, this filters out all rollouts with a reward of r ∈ {0, 1}, essentially using rejection sampling to discard rollouts that don't help the model learn.</p>
+          <p>Online difficulty filtering removes prompts that are too easy or too hard based on the model's current performance. In prime-rl, this filters out all rollouts with a reward of r ∈ {0, 1}, essentially using rejection sampling to discard rollouts that don't help the model learn.</p>
 
           <p>Difficulty pooling works differently. It pools prompts from different difficulty levels together so the model has a better balanced training. Say your rewards are scaled from 0 to 1 and you set <code>easy_threshold = 0.8</code>, <code>hard_threshold = 0.2</code>, <code>easy_fraction = 0.2</code>, and <code>hard_fraction = 0.2</code>. All rollouts with <code>r &lt; 0.2</code> go into the <code>hard_pool</code>, all with <code>r &gt; 0.8</code> go into the <code>easy_pool</code>, and the rest are used normally. When constructing batches for weight updates, we sample <code>easy_fraction</code> rollouts from the easy pool, <code>hard_fraction</code> from the hard pool, and fill the remainder from the normal rollouts. This ensures enough medium-difficulty rollouts to learn from and ideally stabilizes training.</p>
 
-          <p>PRIME-RL's implementation of these mechanisms applies to the entire training run, across all epochs. I was hoping this would stabilize my training, but it didn't. No matter what combination of thresholds and fractions I tried, nothing helped. Then I had an idea: what if, instead of applying pooling to the entire run, we could restrict it to a predefined window? I could activate the mechanism only during critical phases of training where the model could use some guidance.</p>
+          <p>prime-rl's implementation of these mechanisms applies to the entire training run, across all epochs. I was hoping this would stabilize my training, but it didn't. No matter what combination of thresholds and fractions I tried, nothing helped. Then I had an idea: what if, instead of applying pooling to the entire run, we could restrict it to a predefined window? I could activate the mechanism only during critical phases of training where the model could use some guidance.</p>
 
-          <p>Well, it might sound like a nice idea, but Hosted RL doesn't support this since you can't use your own PRIME-RL fork. If it's not in the main branch, it's not available. I really wanted to try this though, so I forked PRIME-RL, implemented windowed pooling, rented GPUs, and started training on my own without Hosted RL. Suddenly, I had to think about GPU selection, which models fit in my rented VRAM, stuff like that. Anyways, long story short, it didn't really improve training, but it was a fun experience. If you need a feature that doesn't exist yet, build it yourself!</p>
+          <p>Well, it might sound like a nice idea, but Hosted RL doesn't support this since you can't use your own prime-rl fork. If it's not in the main branch, it's not available. I really wanted to try this though, so I forked prime-rl, implemented windowed pooling, rented GPUs, and started training on my own without Hosted RL. Suddenly, I had to think about GPU selection, which models fit in my rented VRAM, stuff like that. Anyways, long story short, it didn't really improve training, but it was a fun experience. If you need a feature that doesn't exist yet, build it yourself!</p>
 
           <p>At this point, I was asking myself what went wrong. Was it the reward design? Some flaw in the logic? The dataset? I didn't find problems in the code, but I did find that the dataset was an issue: too many obvious prompts. The first dataset contained all kinds of prompt injections, most of which were easy to spot. So I switched to the second dataset I had created, designed to be more subtle. The injections contain only a few words that are slightly out of place, making them harder to detect.</p>
 
@@ -746,7 +746,7 @@ The prompt requests inclusion of a specific XSS payload for testing purposes in 
           <h2>Links</h2>
 
           <ul>
-            <li><a href="https://github.com/PrimeIntellect-ai/prime-rl">PRIME-RL</a></li>
+            <li><a href="https://github.com/PrimeIntellect-ai/prime-rl">prime-rl</a></li>
             <li><a href="https://github.com/PrimeIntellect-ai/verifiers">verifiers</a></li>
             <li><a href="https://github.com/PrimeIntellect-ai/hosted-rl">Hosted RL</a></li>
             <li><a href="https://primeintellect.ai">PrimeIntellect</a></li>

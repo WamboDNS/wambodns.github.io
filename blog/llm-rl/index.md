@@ -12,9 +12,9 @@ Hosted Training is a service offered by PrimeIntellect that abstracts away the h
 
 The main focus of Hosted RL is to enable plug-and-play training without thinking about infrastructure. You can think of it as an always-accessible server you can use but don't have to set up. More importantly, you don't have to worry about which GPUs to use or whether your VRAM will be sufficient. This means we can freely explore different model sizes!
 
-On the technical side, Hosted RL combines PrimeIntellect's asynchronous RL training framework `PRIME-RL`(https://github.com/PrimeIntellect-ai/prime-rl) with their RL environment library, `verifiers`(https://github.com/PrimeIntellect-ai/verifiers). In `verifiers`, you define your environment: specify the task, the dataset, a harness for your model, and a rubric to score it. That's the only thing you have to think about, really.
+On the technical side, Hosted RL combines PrimeIntellect's asynchronous RL training framework `prime-rl`(https://github.com/PrimeIntellect-ai/prime-rl) with their RL environment library, `verifiers`(https://github.com/PrimeIntellect-ai/verifiers). In `verifiers`, you define your environment: specify the task, the dataset, a harness for your model, and a rubric to score it. That's the only thing you have to think about, really.
 
-PRIME-RL consists of three parts:
+prime-rl consists of three parts:
 
 [primerl.png here from https://arxiv.org/pdf/2512.16144]
 
@@ -560,13 +560,13 @@ With this environment, I experimented much more. I started by giving the model m
 
 No matter what I tried, the model would not get better at detection. Prompts seemed to be either too easy or too hard to detect. Normally when you encounter this, you can for example use online difficulty filtering and difficulty pooling to find the right balance.
 
-Online difficulty filtering removes prompts that are too easy or too hard based on the model's current performance. In PRIME-RL, this filters out all rollouts with a reward of r ∈ {0, 1}, essentially using rejection sampling to discard rollouts that don't help the model learn.
+Online difficulty filtering removes prompts that are too easy or too hard based on the model's current performance. In prime-rl, this filters out all rollouts with a reward of r ∈ {0, 1}, essentially using rejection sampling to discard rollouts that don't help the model learn.
 
 Difficulty pooling works differently. It pools prompts from different difficulty levels together so the model has a better balanced training. Say your rewards are scaled from 0 to 1 and you set `easy_threshold = 0.8`, `hard_threshold = 0.2`, `easy_fraction = 0.2`, and `hard_fraction = 0.2`. All rollouts with `r < 0.2` go into the `hard_pool`, all with `r > 0.8` go into the `easy_pool`, and the rest are used normally. When constructing batches for weight updates, we sample `easy_fraction` rollouts from the easy pool, `hard_fraction` from the hard pool, and fill the remainder from the normal rollouts. This ensures enough medium-difficulty rollouts to learn from and ideally stabilizes training.
 
-PRIME-RL's implementation of these mechanisms applies to the entire training run, across all epochs. I was hoping this would stabilize my training, but it didn't. No matter what combination of thresholds and fractions I tried, nothing helped. Then I had an idea: what if, instead of applying pooling to the entire run, we could restrict it to a predefined window? I could activate the mechanism only during critical phases of training where the model could use some guidance.
+prime-rl's implementation of these mechanisms applies to the entire training run, across all epochs. I was hoping this would stabilize my training, but it didn't. No matter what combination of thresholds and fractions I tried, nothing helped. Then I had an idea: what if, instead of applying pooling to the entire run, we could restrict it to a predefined window? I could activate the mechanism only during critical phases of training where the model could use some guidance.
 
-Well, it might sound like a nice idea, but Hosted RL doesn't support this since you can't use your own PRIME-RL fork. If it's not in the main branch, it's not available. I really wanted to try this though, so I forked PRIME-RL, implemented windowed pooling, rented GPUs, and started training on my own without Hosted RL. Suddenly, I had to think about GPU selection, which models fit in my rented VRAM, stuff like that. Anyways, long story short, it didn't really improve training, but it was a fun experience. If you need a feature that doesn't exist yet, build it yourself!
+Well, it might sound like a nice idea, but Hosted RL doesn't support this since you can't use your own prime-rl fork. If it's not in the main branch, it's not available. I really wanted to try this though, so I forked prime-rl, implemented windowed pooling, rented GPUs, and started training on my own without Hosted RL. Suddenly, I had to think about GPU selection, which models fit in my rented VRAM, stuff like that. Anyways, long story short, it didn't really improve training, but it was a fun experience. If you need a feature that doesn't exist yet, build it yourself!
 
 At this point, I was asking myself what went wrong. Was it the reward design? Some flaw in the logic? The dataset? I didn't find problems in the code, but I did find that the dataset was an issue: too many obvious prompts. The first dataset contained all kinds of prompt injections, most of which were easy to spot. So I switched to the second dataset I had created, designed to be more subtle. The injections contain only a few words that are slightly out of place, making them harder to detect.
 
@@ -700,7 +700,7 @@ Implementing this will not be easy, but I'm pretty excited to see what we can ac
 
 ## Links
 
-- [PRIME-RL](https://github.com/PrimeIntellect-ai/prime-rl)
+- [prime-rl](https://github.com/PrimeIntellect-ai/prime-rl)
 - [verifiers](https://github.com/PrimeIntellect-ai/verifiers)
 - [Hosted RL](https://github.com/PrimeIntellect-ai/hosted-rl)
 - [PrimeIntellect](https://primeintellect.ai)
