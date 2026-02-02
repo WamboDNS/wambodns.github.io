@@ -702,6 +702,5 @@ Implementing this will not be easy, but I'm pretty excited to see what we can ac
 
 - [prime-rl](https://github.com/PrimeIntellect-ai/prime-rl)
 - [verifiers](https://github.com/PrimeIntellect-ai/verifiers)
-- [Hosted RL](https://github.com/PrimeIntellect-ai/hosted-rl)
 - [PrimeIntellect](https://primeintellect.ai)
 - [GANs](https://arxiv.org/abs/1406.2661)
