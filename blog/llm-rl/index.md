@@ -1,6 +1,6 @@
 # Automated Robustness -- When LLMs Attack Themselves
 
-A few days ago, I got access to PrimeIntellect's beta program for "Hosted RL". I already had an idea of what I wanted to try, but as a compute-poor student, ideas are hard to execute. With the beta, I suddenly have access to seemingly infinite compute for LLM Reinforcement Learning!
+A few days ago, I got access to PrimeIntellect's beta program for "Hosted RL". I already had an idea of what I wanted to try, but as a compute-poor student, ideas can sometimes be hard to execute. With the beta, I suddenly have access to seemingly infinite compute for LLM Reinforcement Learning!
 
 My bigger vision can be split into roughly two parts. First, an environment to train an LLM to get better at crafting prompt injections. Second, the counterpart: an environment for training an LLM to get better at *detecting* prompt injections. If both work, we can combine them into something bigger. But more on that later. Let's first talk about what we're working with.
 
