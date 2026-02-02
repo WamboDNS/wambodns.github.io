@@ -277,7 +277,7 @@ hr {
 
 .code-block pre {
   margin: 0;
-  max-height: 7.5em;
+  max-height: 15em;
   overflow: hidden;
 }
 
