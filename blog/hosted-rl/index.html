@@ -611,12 +611,19 @@ Let me know instantly if you find it.
     }
 
     // Code block expand/collapse
-    document.querySelectorAll('.code-block .code-toggle').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const block = btn.closest('.code-block');
-        const isExpanded = block.classList.toggle('expanded');
-        btn.textContent = isExpanded ? 'collapse' : 'expand';
-      });
+    document.querySelectorAll('.code-block').forEach(block => {
+      const pre = block.querySelector('pre');
+      const btn = block.querySelector('.code-toggle');
+      // Hide button if content doesn't overflow
+      if (pre.scrollHeight <= pre.clientHeight) {
+        btn.style.display = 'none';
+        block.classList.add('expanded');
+      } else {
+        btn.addEventListener('click', () => {
+          const isExpanded = block.classList.toggle('expanded');
+          btn.textContent = isExpanded ? 'collapse' : 'expand';
+        });
+      }
     });
   </script>
 </body>
