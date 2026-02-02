@@ -133,13 +133,13 @@ code {
   font-size: 0.85em;
   background: var(--bg-secondary);
   padding: 0.15em 0.4em;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 pre {
   background: var(--bg-secondary);
   padding: 1rem;
-  border-radius: 6px;
+  border-radius: 0;
   overflow-x: auto;
   margin: 1.5rem 0;
   border: 1px solid var(--border);
@@ -268,6 +268,53 @@ hr {
 
 [data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 [data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+/* Collapsible code blocks */
+.code-block {
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.code-block pre {
+  margin: 0;
+  max-height: 7.5em;
+  overflow: hidden;
+}
+
+.code-block.expanded pre {
+  max-height: none;
+}
+
+.code-block:not(.expanded)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  background: linear-gradient(transparent, var(--bg-secondary));
+  pointer-events: none;
+}
+
+.code-toggle {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 0.65rem;
+  padding: 0.15rem 0.35rem;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: inherit;
+  z-index: 1;
+}
+
+.code-toggle:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
 
 @media (max-width: 600px) {
   header .container {
