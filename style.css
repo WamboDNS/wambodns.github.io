@@ -302,33 +302,18 @@ hr {
   right: 0.4rem;
   background: var(--bg);
   border: 1px solid var(--border);
-  width: 1.4rem;
-  height: 1.4rem;
-  padding: 0;
-  border-radius: 0;
+  color: var(--accent);
+  font-size: 0.65rem;
+  font-family: inherit;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
   cursor: pointer;
   z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
-.code-toggle svg {
-  width: 0.9rem;
-  height: 0.9rem;
-  fill: var(--accent);
-}
-
-.code-toggle .icon-collapse { display: none; }
-.code-block.expanded .code-toggle .icon-expand { display: none; }
-.code-block.expanded .code-toggle .icon-collapse { display: block; }
 
 .code-toggle:hover {
   background: var(--accent);
-}
-
-.code-toggle:hover svg {
-  fill: var(--bg);
+  color: var(--bg);
 }
 
 @media (max-width: 600px) {
