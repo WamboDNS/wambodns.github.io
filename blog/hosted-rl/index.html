@@ -711,8 +711,6 @@ The prompt requests inclusion of a specific XSS payload for testing purposes in 
 
           <p>So we have four roles: Alice, Bob, the Attacker (M), and the Defender (D). Alice and Bob have a "normal" conversation. The Attacker intercepts messages from Alice to Bob and injects hidden instructions. Bob responds to the injected message, and Alice receives Bob's response as if nothing happened. In parallel, the Defender receives both the original message from Alice and the injected version from the Attacker, independently, and classifies each.</p>
 
-<div class="code-block">
-  <button class="code-toggle">expand</button>
 <pre><code>      Alice              A              D              Bob
         │                │              │               │
         │── message ────►│              │               │
@@ -734,7 +732,6 @@ The prompt requests inclusion of a specific XSS payload for testing purposes in 
         │                │              │               │
         │◄───────────────┼──────────────┼── response ───│
         │                │              │               │</code></pre>
-</div>
 
           <p>We keep a clean split for the chat histories: Alice never knows that the messages she sends to Bob are intercepted and edited. This loop keeps going until we run out of turns or the Attacker succeeds.</p>
 
