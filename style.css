@@ -278,7 +278,10 @@ hr {
 .code-block pre {
   margin: 0;
   max-height: 15em;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .code-block.expanded pre {
